@@ -1,58 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Koleksi Video</title>
+	<title>Penjualan Produk</title>
 	<style>
 		body {
-			background-color: #F24D29;
 			font-family: Arial, sans-serif;
 		}
 		
-		.video-container {
-			width: 80%;
-			margin: 40px auto;
-			text-align: center;
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
 		}
 		
-		.video {
-			margin-bottom: 20px;
+		.produk {
+			width: 250px;
+			border: 1px solid #ccc;
+			padding: 20px;
+			margin: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 		}
 		
-		.video-title {
-			font-size: 18px;
+		.produk img {
+			width: 100%;
+			height: 150px;
+			object-fit: cover;
+			border-radius: 10px;
+		}
+		
+		.produk h2 {
+			margin-top: 0;
+		}
+		
+		.produk .harga {
+			font-size: 24px;
 			font-weight: bold;
-			margin-bottom: 10px;
+			color: #00698f;
+		}
+		
+		.produk .beli {
+			background-color: #00698f;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		.produk .beli:hover {
+			background-color: #004c66;
 		}
 	</style>
 </head>
 <body>
-	<div class="video-container">
-		<h1>PEMENANG EVENT SLOT 880M</h1>
-		
-		<div class="video">
-			<div class="video-title">Video 1</div>
-			<iframe width="560" height="315" src="https://www.ppshare.net/Dj10jXFtdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="container">
+		<div class="produk">
+			<img src="https://i.postimg.cc/mDhV8mX9/awdadwdwadewew.jpg" alt="Produk 1">
+			<h2>ROBUX PROMO</h2>
+			<p>Deskripsi produk 1...</p>
+			<p class="harga">Rp 100.000</p>
+			<button class="beli">Beli Sekarang</button>
 		</div>
 		
-		<div class="video">
-			<div class="video-title">Video 2</div>
-			<iframe width="560" height="315" src="https://euioa.jxcsysekgu.net/2qEVvq2JRC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="produk">
+			<img src="https://i.postimg.cc/mDhV8mX9/awdadwdwadewew.jpg" alt="Produk 2">
+			<h2>SUPER UC PUBG</h2>
+			<p>Deskripsi produk 2...</p>
+			<p class="harga">Rp 200.000</p>
+			<button class="beli">Beli Sekarang</button>
 		</div>
 		
-		<div class="video">
-			<div class="video-title">Video 3</div>
-			<iframe width="560" height="315" src="https://fkivsk.hrqhregkxq.net/vrJDO01h7b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="produk">
+			<img src="https://i.postimg.cc/mDhV8mX9/awdadwdwadewew.jpg" alt="Produk 3">
+			<h2>PAKET COMBO MLBB</h2>
+			<p>Deskripsi produk 3...</p>
+			<p class="harga">Rp 300.000</p>
+			<button class="beli">Beli Sekarang</button>
 		</div>
-        
-        <div class="video">
-			<div class="video-title">Video 4</div>
-			<iframe width="560" height="315" src="https://fkivsk.hrqhregkxq.net/X2pIgiUPGD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<div class="produk">
+			<img src="https://i.postimg.cc/mDhV8mX9/awdadwdwadewew.jpg" alt="Produk 4">
+			<h2>ROBUX GLOBAL SLOW</h2>
+			<p>Deskripsi produk 4...</p>
+			<p class="harga">Rp 400.000</p>
+			<button class="beli">Beli Sekarang</button>
 		</div>
-        
-        <div class="video">
-			<div class="video-title">Video 5</div>
-			<iframe width="560" height="315" src="https://fkivsk.hrqhregkxq.net/tK540lwxGq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<div class="produk">
+			<img src="https://i.postimg.cc/mDhV8mX9/awdadwdwadewew.jpg" alt="Produk 5">
+			<h2>UC PUBG GLOBAL</h2>
+			<p>Deskripsi produk 5...</p>
+			<p class="harga">Rp 500.000</p>
+			<button class="beli">Beli Sekarang</button>
 		</div>
+
+                <div class="produk">
+			<img src="https://i.postimg.cc/mDhV8mX9/awdadwdwadewew.jpg" alt="Produk 5">
+			<h2>PAKET HEMAT MLBB</h2>
+			<p>Deskripsi produk 5...</p>
+			<p class="harga">Rp 600.000</p>
+			<button class="beli">Beli Sekarang</button>
+		</div>
+
 	</div>
 </body>
 </html>
